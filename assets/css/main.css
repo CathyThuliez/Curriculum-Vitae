@@ -1,0 +1,243 @@
+body {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.fa fa-angle-down fa-5x {
+  color: white;
+}
+
+.fa-color {
+  color: white;
+  text-shadow: 3px 3px 6px black;
+}
+
+img {
+  margin-bottom: 25px;
+}
+
+/*social link*/
+.social-link {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.social-link a {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  color: #fff;
+  background: pink;
+  line-height: 45px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+  box-shadow: 4px 4px 4px 2px black;
+}
+
+.social-link a i {
+  font-size: 20px;
+}
+
+/*Titles*/
+h1 {
+  margin-top: 70px;
+  font-size: 70px;
+  font-weight: 500;
+}
+
+h1, h2 {
+  color: white;
+  text-align: center;
+  text-shadow: 5px 5px 8px black;
+}
+
+h4 {
+  background-color: pink;
+  background-size: 35px;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+}
+
+/* Paragraph & Typographic */
+p {
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+
+.centered {
+  text-align: center;
+}
+
+/* Links */
+a {
+  color: darkorchid;
+  word-wrap: break-word;
+}
+
+a:hover,
+a:focus {
+  color: darkorchid;
+  text-decoration: none;
+  outline: 0;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*Navbar*/
+nav {
+  position: fixed;
+  top: 0;
+  padding: 10px;
+  width: 100%;
+}
+
+
+nav ul {
+  list-style: none;
+  margin: 0;
+}
+
+nav ul :hover {
+  color: pink;
+  font-weight: bold;
+}
+
+nav li {
+  color: #fff;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+
+section {
+  border-top: 10px;
+  padding: 10px;
+  margin: 10px 0px 10px 0px;
+}
+
+/* Header Wrap */
+#headerwrap {
+  background: url(../img/background-2.jpg) no-repeat center /100%;
+  background-size: cover;
+  background-position: center;
+  margin-top: 40px;
+  padding-top: 140px;
+  text-align: center;
+  background-attachment: fixed;
+  height: 700px;
+  width: 100%;
+}
+
+#headerwrap h1 {
+  font-weight: bold;
+  color: white;
+}
+
+#headerwrap h2 {
+  font-weight: bold;
+  color: white;
+}
+
+/* Intro Wrap */
+
+#intro {
+  background: #2c3e50;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: white;
+}
+
+#skillswrap {
+  background: #2c3e50;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: white;
+}
+
+#skillswrap p {
+  color: white;
+}
+
+#footwrap {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+#footwrap p {
+  color: #2f2f2f;
+}
+
+#footwrap t {
+  color: purple;
+  font-weight: 700;
+}
+
+#footwrap i {
+  padding-right: 8px;
+  color: navajowhite;
+}
+
+#go-top {
+  background-color: #121012;
+  border: none;
+  border-radius: 10px;
+  bottom: 20px;
+  cursor: pointer;
+  display: none;
+  outline: none;
+  padding: 15px;
+  position: fixed;
+  right: 30px;
+  z-index: 99;
+}
+
+#go-top:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/* Global Values */
+.desc {
+  padding-top: 50px;
+}
+
+.desc img {
+  height: 60px;
+  width: 60px;
+}
+
+.desc p {
+  color: #2f2f2f;
+}
+.desc ul {
+  color: #2f2f2f;
+}
+
+.desc t {
+  color: purple;
+  font-weight: 700;
+}
+
+.desc imp {
+  padding: 6px;
+  color: white;
+  background: #34495e;
+}
+
+.desc more {
+  color: #95a5a6;
+}
+
+sm {
+  font-size: 14px;
+}
