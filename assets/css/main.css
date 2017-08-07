@@ -17,10 +17,6 @@ width: 25px;
   text-shadow: 3px 3px 6px black;
 }
 
-img {
-  margin-bottom: 25px;
-}
-
 /*social link*/
 .social-link {
   margin-top: 40px;
@@ -70,10 +66,11 @@ h4 {
 /* Paragraph */
 p {
   line-height: 28px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .centered {
+  margin-bottom: 25px;
   text-align: center;
 }
 
@@ -104,7 +101,7 @@ nav {
   position: fixed;
   top: 0;
   padding: 10px;
-  height: 0px;
+  /*height: 50px;*/
   width: 100%;
 }
 
@@ -214,7 +211,7 @@ section {
 
 /* Global Values */
 .desc {
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 .desc img {
