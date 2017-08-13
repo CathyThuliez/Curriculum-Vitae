@@ -77,7 +77,6 @@ p {
 /* Links */
 a {
   color: darkorchid;
-  word-wrap: break-word;
 }
 
 a:hover,
@@ -101,7 +100,6 @@ nav {
   position: fixed;
   top: 0;
   padding: 10px;
-  /*height: 50px;*/
   width: 100%;
 }
 
@@ -188,7 +186,7 @@ section {
 
 #footwrap i {
   padding-right: 8px;
-  color: navajowhite;
+  color: darkorchid;
 }
 
 #go-top {
@@ -206,7 +204,7 @@ section {
 }
 
 #go-top:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+  background-color: pink;
 }
 
 /* Global Values */
