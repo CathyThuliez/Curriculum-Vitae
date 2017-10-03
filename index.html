@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-
-  <!-- Bonjour et bienvenue ! Pour le plaisir de vos yeux j'ai pris soin de l'indentation. :) -->
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Curriculum Vitae Cathy Thuliez">
-  <meta name="author" content="crea-tech.fr/cv">
+  <meta name="author" content="crea-tech.fr">
+
   <title>CV | Cathy Thuliez - Développeur Web</title>
+
   <link rel="icon" href="assets/img/favicon-materia.png" />
   <link href="assets/css/bootstrap.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-  <!-- Latest compiled and minified CSS -->
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/> -->
   <link href="assets/css/main.css" rel="stylesheet">
+
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -22,118 +20,119 @@
   <script type="text/javascript" src="assets/js/cv.js"></script>
 </head>
 
-<!-- Menu-->
+<body>
+  <!-- Menu-->
 <nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header menu">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Menu</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+    <div class="container">
+      <div class="navbar-header menu">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Menu</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li onclick="scrollToSection('about')">A propos</li>
+          <li onclick="scrollToSection('competence')">Mes compétences Web</li>
+          <li onclick="scrollToSection('formation')">Ma formation</li>
+          <li onclick="scrollToSection('experience')">Mon parcours professionnel</li>
+          <li onclick="scrollToSection('divers')">Divers</li>
+          <li onclick="scrollToSection('contact')">Contact</li>
+          <a href="index-en.html" target="_blank">En</a>
+        </ul>
+      </div>
     </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li onclick="scrollToSection('about')">A propos</li>
-        <li onclick="scrollToSection('competence')">Mes compétences Web</li>
-        <li onclick="scrollToSection('formation')">Ma formation</li>
-        <li onclick="scrollToSection('experience')">Mon parcours professionnel</li>
-        <li onclick="scrollToSection('divers')">Divers</li>
-        <li onclick="scrollToSection('contact')">Contact</li>
-        <a href="index-en.html" target="_blank"><img class="flag" src="assets/img/english-flag.png" alt="drapeau anglais"></a>
-      </ul>
-    </div>
-  </div>
-</nav>
+  </nav>
+
 <div id="headerwrap">
-  <div class="container">
-    <div class="row centered">
-      <div class="col-lg-12">
-        <h1>Cathy Thuliez</h1>
-        <h2>Développeur Web</h2>
-        <div class="social-link">
-          <a href="https://github.com/CathyThuliez" target="_blank"><i class="fa fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/cathy-thuliez-a93ba5144/" target="_blank"><i class="fa fa-linkedin"></i></a>
-          <a href="https://twitter.com/Cathy_Thuliez" target="_blank"><i class="fa fa-twitter"></i></a>
-          <br>
-          <br>
-          <i class="bounce fa fa-angle-down fa-5x fa-color"></i>
+    <div class="container">
+      <div class="row centered">
+        <div class="col-lg-12">
+          <h1>Cathy Thuliez</h1>
+          <h2>Développeur Web</h2>
+          <div class="social-link">
+            <a href="https://github.com/CathyThuliez" target="_blank"><i class="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/cathy-thuliez-a93ba5144/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://twitter.com/Cathy_Thuliez" target="_blank"><i class="fa fa-twitter"></i></a>
+            <br />
+            <br />
+            <i class="bounce fa fa-angle-down fa-5x fa-color"></i>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+
 <section id="about">
-  <div class="container desc">
-    <h4>A propos</h4>
-    <br />
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2">
-        <t>Développeur Web, j'ai mis toutes les chances de mon côté en m'orientant vers une formation à Pop School Lens. Celle-ci m’a permis d’apprendre la programmation et la méthodologie à mettre en place et développer pour effectuer, dans les meilleures conditions, un site web ou une application mobile. <br />
-          <br />
-          Découvrez mon parcours ci-dessous : </t>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="competence">
     <div class="container desc">
-      <h4>Mes compétences Web & Mobile</h4>
+      <h4>A propos</h4>
       <br />
       <div class="row">
-        <div class="col-lg-2 centered">
-          <a href="https://github.com/CathyThuliez/Curriculum-Vitae/blob/master/index.html" target="_blank"><img src="assets/img/html5.png" alt="html5 logo" /></a>
+        <div class="col-lg-8 col-lg-offset-2">
+          <t>Passionnée depuis toujours par tout ce qui touche à l’informatique, j’ai dû laisser cette passion de côté pendant quelques années. Les différents chemins que j’ai empreintés m’ont invariablement ramenée vers ma passion. J’ai donc décidé de suivre une formation intensive de 6 mois pour mettre à jour les connaissances que je possédais et apprendre ce que je ne connaissais pas encore. Cela afin de faire de la programmation mon métier.
+            C’est de cette façon que je suis arrivée à Pop School Lens. <br />
+            <br />
+            Découvrez mon parcours ci-dessous : </t>
+          </div>
         </div>
-        <div class="col-lg-2 centered">
-          <a href="https://github.com/CathyThuliez/pop-school/blob/master/first-HTMLCSS-projet.git/css/style.css" target="_blank"><img src="assets/img/css.svg" alt="css logo" /></a>
-        </div>
-        <div class="col-lg-2 centered">
-          <a href="https://github.com/CathyThuliez/javascript/blob/master/exo-js2-dk/js/average.js" target="_blank"><img src="assets/img/icon_javascript.png" alt=" logo" /></a>
-        </div>
-        <div class="col-lg-2 centered">
-          <a href="https://github.com/CathyThuliez/php/blob/master/functions.php" target="_blank"><img src="assets/img/php.svg" alt="php logo" /></a>
-        </div>
-        <div class="col-lg-2 centered">
-          <a href="https://github.com/CathyThuliez" target="_blank"><img src="assets/img/icon_github-2.png" alt=" logo" /></a>
-        </div>
-        <div class="col-lg-2 centered">
-          <img src="assets/img/debian.png" alt=" logo" />
-        </div>
-        <div class="col-lg-2 centered">
-          <img src="assets/img/mysql.svg" alt=" logo" />
-        </div>
-        <div class="col-lg-2 centered">
-          <img src="assets/img/git.png" alt=" logo" />
-        </div>
-        <div class="col-lg-2 centered">
-          <a href="https://github.com/CathyThuliez/Curriculum-Vitae/blob/master/index.html" target="_blank"><img src="assets/img/bootstrap.svg" alt=" logo" /></a>
-        </div>
-        <div class="col-lg-2 centered">
-          <img src="assets/img/wp.png" alt=" logo" />
-        </div>
-        <div class="col-lg-2 centered">
-          <a href="https://github.com/CathyThuliez/nodejs" target="_blank"><img src="assets/img/nodejs.svg" alt="logo" /></a>
-        </div>
-        <div class="col-lg-2 centered">
-          <a href="https://github.com/CathyThuliez/vuejs" target="_blank"><img src="assets/img/vuejs.png" alt="logo vuejs" /></a>
-        </div>
+      </div>
+    </section>
 
-        <!-- Cette partie est en commentaire, car en phase d'apprentissage -->
-
-        <!-- <div class="col-lg-2 centered">
-        <img src="assets/img/angular.svg" alt="angular logo" />
+    <section id="competence">
+      <div class="container desc">
+        <h4>Mes compétences Web & Mobile</h4>
+        <br />
+        <p>Vous pouvez cliquer sur les icones pour être redirigé vers les repos github.</p>
+        <div class="row">
+          <div class="col-lg-2 centered">
+            <a href="https://github.com/CathyThuliez/Curriculum-Vitae" target="_blank"><img src="assets/img/html5.png" alt="html5 logo" /></a>
+          </div>
+          <div class="col-lg-2 centered">
+            <a href="https://github.com/CathyThuliez/Curriculum-Vitae" target="_blank"><img src="assets/img/css.svg" alt="css logo" /></a>
+          </div>
+          <div class="col-lg-2 centered">
+            <a href="https://github.com/CathyThuliez/javascript" target="_blank"><img src="assets/img/icon_javascript.png" alt=" logo" /></a>
+          </div>
+          <div class="col-lg-2 centered">
+            <a href="https://github.com/CathyThuliez/php" target="_blank"><img src="assets/img/php.svg" alt="php logo" /></a>
+          </div>
+          <div class="col-lg-2 centered">
+            <a href="https://github.com/CathyThuliez" target="_blank"><img src="assets/img/icon_github-2.png" alt=" logo" /></a>
+          </div>
+          <div class="col-lg-2 centered">
+            <img src="assets/img/debian.png" alt=" logo" />
+          </div>
+          <div class="col-lg-2 centered">
+            <img src="assets/img/mysql.svg" alt=" logo" />
+          </div>
+          <div class="col-lg-2 centered">
+            <img src="assets/img/git.png" alt=" logo" />
+          </div>
+          <div class="col-lg-2 centered">
+            <a href="https://github.com/CathyThuliez/Curriculum-Vitae" target="_blank"><img src="assets/img/bootstrap.svg" alt=" logo" /></a>
+          </div>
+          <div class="col-lg-2 centered">
+            <img src="assets/img/wp.png" alt=" logo" />
+          </div>
+          <div class="col-lg-2 centered">
+            <a href="https://github.com/CathyThuliez/nodejs" target="_blank"><img src="assets/img/nodejs.svg" alt="logo" /></a>
+          </div>
+          <div class="col-lg-2 centered">
+            <a href="https://github.com/CathyThuliez/vuejs" target="_blank"><img src="assets/img/vuejs.png" alt="logo vuejs" /></a>
+          </div>
+          <!-- Cette partie est en commentaire, car en phase d'apprentissage -->
+          <!-- <div class="col-lg-2 centered">
+          <a href="" target="_blank"><img src="assets/img/icon_symfony.png" alt="symfony logo" /></a>
+        </div>
+        <div class="col-lg-2 centered">
+        <a href="" target="_blank"><img src="assets/img/jquery.png" alt=" logo" /></a>
       </div> -->
-      <!-- <div class="col-lg-2 centered">
-      <img src="assets/img/icon_sass.svg" alt="sass logo" />
-      <div class="col-lg-2 centered">
-      <img src="assets/img/icon_symfony.png" alt="symfony logo" />
-    </div> --><!-- <div class="col-lg-2 centered">
-    <img src="assets/img/jquery.png" alt=" logo" />
-  </div> -->
-</div>
-</div>
+    </div>
+  </div>
 </section>
+
 <section id="formation">
   <div class="container desc">
     <div class="row">
@@ -152,113 +151,118 @@
     </div>
   </div>
 </section>
+
 <section id="experience">
   <div class="container desc">
     <div class="row">
       <h4>Mon parcours professionnel</h4>
       <br />
       <div class="col-lg-6">
-        <t>VENDEUSE</t><br />
+        <t>DEVELOPPEUR WEB</t><br />
         <ul>
-          <li>Tout Chaud (Liévin)<br />
-            2012</li>
-            <li>E.Leclerc (Vitré)<br />
-              2003 - 2004</li>
-              <li>Forum Gourmand (Vitré)<br />
-                2001 - 2002</li>
-                <li>Epicerie familiale (Neuilly St Front)<br />
-                  1993 - 1996</li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <t>V.R.P. EXCLUSIVE</t>
-                <ul>
-                  <li>Le livre de Paris Hachette (Reims)<br />
-                    1999 - 2000</li>
-                    <li>Le livre de Paris Hachette (Lille)<br />
-                      1997</li>
+          <li>Editions lapin<br />
+            2017</li>
+            <li>Réalisation d'une application mobile pour <br />les éditions lapin. <a href="https://github.com/Vinarnt/ionic_lapin" target="_blank"> Ciquez ici</a>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <t>COMMERCIALE</t><br />
+            <ul>
+              <li>Tout Chaud (Liévin)<br />
+                2012</li>
+                <li>E.Leclerc (Vitré)<br />
+                  2003 - 2004</li>
+                  <li>Forum Gourmand (Vitré)<br />
+                    2001 - 2002</li>
+                    <li>Epicerie familiale (Neuilly St Front)<br />
+                      1993 - 1996</li>
                     </ul>
                   </div>
                 </div>
               </div>
-            </section>
-            <section id="experience">
               <div class="container desc">
                 <div class="row">
                   <div class="col-lg-6">
-                    <t>ENQUÊTRICE TERRAIN</t>
+                    <t>V.R.P. EXCLUSIVE</t>
+                    <ul>
+                      <li>Le livre de Paris Hachette (Reims)<br />
+                        1999 - 2000</li>
+                      <li>Le livre de Paris Hachette (Lille)<br />
+                          1997</li>
+                    </ul>
+                  </div>
+                <div class="col-lg-6">
+                  <t>ENQUÊTRICE TERRAIN</t>
                     <ul>
                       <li>BVA (agence de Paris)<br />
-                        2016</li>
-                        <li>BVA (agence de Toulouse)<br />
+                          2016</li>
+                      <li>BVA (agence de Toulouse)<br />
                           2015</li>
-                        </ul>
-                      </div>
-                      <div class="col-lg-6">
-                        <t>INTÉRIMAIRE</t>
-                        <ul>
-                          <li>Le relais (Vitré)<br />
-                            2005 - 2006</li>
-                            <li>Supplay (Château-Thierry)<br />
-                              1998 - 1999</li>
-                            </ul>
-                          </div>
-                        </div>
-                        <br>
-                      </div>
-                    </section>
-                    <section id="divers">
-                      <h4>Divers</h4>
-                      <br />
-                      <div class="container desc">
-                        <div class="row centered">
-                          <div class="col-lg-3">
-                            <img src="assets/img/terminal2.png" alt="code logo"><br />
-                            <t>Le code</t>
-                          </div>
-                          <div class="col-lg-3">
-                            <img src="assets/img/book2.jpg" alt="logo"><br />
-                            <t>Vie associative</t>
-                          </div>
-                          <div class="col-lg-3">
-                            <img src="assets/img/book.jpg" alt="logo"><br />
-                            <t>La lecture</t>
-                          </div>
-                          <div class="col-lg-3">
-                            <img src="assets/img/game2.jpg" alt="musique logo"><br />
-                            <t>Jeux en ligne</t>
-                          </div>
-                        </div>
-                      </div>
-                    </section>
-                    <!--FOOTER DESCRIPTION -->
-                    <section id="contact">
-                      <h4>Contact</h4>
-                      <div id="footwrap">
-                        <div class="container">
-                          <div class="row centered">
-                            <div class="col-lg-4">
-                              <t>Email</t><br />
-                              <span>
-                                <a href="mailto:cathy.thuliez@crea-tech.fr" target="_blank">cathy.thuliez@crea-tech.fr</a>
-                              </span>
-                              </div>
-                              <div class="col-lg-4">
-                                <t>Téléphone<br />
-                                  <a href="tel:+33642140329" target="_blank">Appelez-moi</a></t>
+                    </ul>
+                </div>
+              </div>
+              <br />
+            </div>
+</section>
 
-                                </div>
-                                <div class="col-lg-4">
-                                  <a href="assets/img/cathy-thuliez-cv.pdf" target="_blank"><i class="icon-file"></i></a><br />
-                                  <t>Télécharger le PDF</t>
-                                </div>
-                                <div>
-                                  <button onclick="topFunction()" id="go-top" title="Go to top"><i class="fa fa-arrow-up"></i></button>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </section>
+<section id="divers">
+  <h4>Divers</h4>
+  <br />
+    <div class="container desc">
+      <div class="row centered">
+        <div class="col-lg-3">
+          <a href="https://github.com/CathyThuliez/Inherit-2008" target="_blank"><img src="assets/img/terminal2.png" alt="code logo"></a><br />
+          <t>Le code</t>
+        </div>
+          <div class="col-lg-3">
+            <img src="assets/img/book2.jpg" alt="logo"><br />
+              <t>Vie associative</t>
+          </div>
+          <div class="col-lg-3">
+            <img src="assets/img/book.jpg" alt="logo"><br />
+            <t>La lecture</t>
+          </div>
+          <div class="col-lg-3">
+            <img src="assets/img/game2.jpg" alt="musique logo"><br />
+              <t>Jeux en ligne</t>
+          </div>
+        </div>
+      </div>
+</section>
 
-                      </body>
-                      </html>
+<!--FOOTER DESCRIPTION -->
+<section id="contact">
+  <h4>Contact</h4>
+    <div id="footwrap">
+      <div class="container">
+        <div class="row centered">
+          <div class="col-lg-4">
+            <t>Email</t><br />
+              <span>
+                <a href="mailto:cathy.thuliez@crea-tech.fr" target="_blank">cathy.thuliez@crea-tech.fr</a>
+              </span>
+            </div>
+            <div class="col-lg-4">
+              <t>Téléphone<br />
+                <a href="tel:+33642140329" target="_blank">0642140329</a></t>
+            </div>
+            <div class="col-lg-4">
+              <a href="assets/img/cathy-thuliez-cv.pdf" target="_blank"><i class="icon-file"></i><br />
+              <t>Télécharger le PDF</t></a>
+            </div>
+            <div>
+              <button onclick="topFunction()" id="go-top" title="Go to top"><i class="fa fa-arrow-up"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+
+<footer>
+  <div class="foot">
+    <p>© Cathy Thuliez. Tous Droits Réservés.</p>
+  </div>
+</footer>
+
+</body>
+</html>

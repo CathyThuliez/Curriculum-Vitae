@@ -4,8 +4,8 @@ body {
 }
 
 .flag {
-height: 25px;
-width: 25px;
+  height: 25px;
+  width: 25px;
 }
 
 .fa fa-angle-down fa-5x {
@@ -103,7 +103,6 @@ nav {
   width: 100%;
 }
 
-
 nav ul {
   list-style: none;
   margin: 0;
@@ -119,7 +118,6 @@ nav li {
   cursor: pointer;
   margin-right: 20px;
 }
-
 
 section {
   border-top: 10px;
@@ -149,8 +147,6 @@ section {
   font-weight: bold;
   color: white;
 }
-
-/* Intro Wrap */
 
 #intro {
   background: #2c3e50;
@@ -220,6 +216,7 @@ section {
 .desc p {
   color: #2f2f2f;
 }
+
 .desc ul {
   color: #2f2f2f;
 }
@@ -241,4 +238,15 @@ section {
 
 sm {
   font-size: 14px;
+}
+
+/*FOOTER*/
+footer {
+  background-color: black;
+  height: 60px;
+}
+
+.foot {
+  margin-right: 30px;
+  padding-top: 10px;
 }
